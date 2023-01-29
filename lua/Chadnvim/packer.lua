@@ -13,8 +13,7 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-  --Nightfox - colorscheme for nvim
-  use "EdenEast/nightfox.nvim" -- Packer
+  
   --tokyonight - colorscheme for nvim
   use "folke/tokyonight.nvim"
   --Treesitter - plugin to color syntax accurately
