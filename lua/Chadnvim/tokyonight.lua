@@ -20,37 +20,77 @@ require("tokyonight").setup({
 	--	colors.bg_dark = '#232b2b'
 	end,
 	on_highlights = function(highlights, night)
+		highlights["@constructor"] = {
+			fg = "#bb9af7"
+		}
+		highlights["@field"] = {
+			fg = "#73daca"
+		}
+		highlights["@keyword"] = {
+			fg = "#734bb3"
+		}
+		highlights["@keyword.function"] = {
+			fg = "#bb9af7"
+		}
+		highlights["@label"] = {
+			fg = "#a83275"
+		}
+		highlights["@operator"] = {
+			fg = "#b1f3fa"
+		}
+		highlights["@parameter"] = {
+			fg = "#f0c426"
+		}
+		highlights["@property"] = {
+			fg = "#73daca"
+		}
 		highlights["@punctuation.bracket"] = {
-			fg = "#a9b1d6"
-		} 
+			fg = "#89ddff"
+		}
+		highlights["@punctuation.delimiter"] = {
+			fg = "#89ddff"
+		}
+		highlights["@punctuation.special"] = {
+			fg = "#89ddff"
+		}
+		highlights["@punctuation.special.markdown"] = {
+			fg = "#89ddff"
+		}
+		highlights.CursorLine = {
+			bg = "#2f3063"
+		}
+		highlights.CursorLineNr = {
+			fg = "#eeeeee",
+			bg = "#2f3063"
+		}
 	--	highlights["@label"] = {
 	--		fg = "#1969b9"	
 	--	}
-		highlights["@label"] = {
-			fg = "#b932be"
-		}
-		highlights["@operator"] = {
-			fg = "#b932be"
-		}
-		highlights["@property"] = {
-			fg = "#b932be"
-		}
+	--	highlights["@label"] = {
+	--		fg = "#b932be"
+	--	}
+	--	highlights["@operator"] = {
+	--		fg = "#b932be"
+	--	}
+	--	highlights["@property"] = {
+	--		fg = "#b932be"
+	--	}
 	--	highlights.Cursor = {
 	--		bg = '#cc0000',
 	--		fg = '#73daca'
 	--	}
-		highlights.Comment = {
-			fg = '#3d85c6'
-		}
-		highlights.CursorLine = {
-			bg = '#eeeeee'
-		}
-		highlights.CursorLineNr = {
-			fg = '#eeeeee'
-		}
-		highlights.String = {
-			fg = '#85c000'
-		}
+	--	highlights.Comment = {
+	--		fg = '#3d85c6'
+	--	}
+	--	highlights.CursorLine = {
+	--		bg = '#eeeeee'
+	--	}
+	--	highlights.CursorLineNr = {
+	--		fg = '#eeeeee'
+	--	}
+	--	highlights.String = {
+	--		fg = '#85c000'
+	--	}
 	--	highlights.Type = {
 	--		fg = '#2ac3de'
 	--	}
@@ -60,10 +100,13 @@ require("tokyonight").setup({
 		highlights.CursorIM = {
 			fg = "#551652"
 		}
-		highlights.Keyword = {
-			fg = "#b932be"
-		}
+	--	highlights.Keyword = {
+	---		fg = "#b932be"
+	--	}
 		highlights.LineNr = {
+			fg = "#d47cde"
+		}
+		highlights.qfLineNr = {
 			fg = "#822086"
 		}
 
