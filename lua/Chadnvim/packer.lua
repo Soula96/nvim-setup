@@ -7,7 +7,7 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-
+-- Telescope plugin - lets you search for files (grep, fuzzy finder etc.)
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
 	  -- or                            , branch = '0.1.x',
