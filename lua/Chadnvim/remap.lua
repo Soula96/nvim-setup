@@ -22,3 +22,5 @@ vim.keymap.set("n", "<leader>P", "\"+P")
 vim.keymap.set("n", "<leader>d", "\"_d")
 vim.keymap.set("v", "<leader>d", "\"_d")
 
+
+-- Test if git is working now
