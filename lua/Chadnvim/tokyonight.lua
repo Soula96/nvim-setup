@@ -16,8 +16,8 @@ require("tokyonight").setup({
 	lualine_bold = true,
 	on_colors = function(colors)
 		colors.hint = '#2196f3'
-	--	colors.bg = '#232b2b'
-	--	colors.bg_dark = '#232b2b'
+		colors.bg = '#16161e'
+	    colors.bg_dark = '#16161e'
 	end,
 	on_highlights = function(highlights, night)
 		highlights["@constructor"] = {
@@ -79,9 +79,9 @@ require("tokyonight").setup({
 	--		bg = '#cc0000',
 	--		fg = '#73daca'
 	--	}
-	--	highlights.Comment = {
-	--		fg = '#3d85c6'
-	--	}
+		highlights.Comment = {
+			fg = '#6873a6'
+		}
 	--	highlights.CursorLine = {
 	--		bg = '#eeeeee'
 	--	}
