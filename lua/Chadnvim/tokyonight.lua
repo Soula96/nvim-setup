@@ -75,10 +75,12 @@ require("tokyonight").setup({
 	--	highlights["@property"] = {
 	--		fg = "#b932be"
 	--	}
-	--	highlights.Cursor = {
-	--		bg = '#cc0000',
-	--		fg = '#73daca'
-	--	}
+		highlights.Cursor = {
+			bg = '#cc0000',
+			fg = '#73daca'
+		}
+       -- alternate Comment color (better visibiliy, but also looks more like
+       -- actual code: #3d85c6
 		highlights.Comment = {
 			fg = '#6873a6'
 		}
