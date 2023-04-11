@@ -38,9 +38,9 @@ require("tokyonight").setup({
 		highlights["@operator"] = {
 			fg = "#b1f3fa"
 		}
-		highlights["@parameter"] = {
-			fg = "#f0c426"
-		}
+--		highlights["@parameter"] = {
+--			fg = "#f0c426"
+--		}
 		highlights["@property"] = {
 			fg = "#73daca"
 		}
